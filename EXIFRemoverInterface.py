@@ -36,6 +36,7 @@ def remove_exif(filename):
             image.save(newfilename, quality=95)
             piexif.remove(newfilename)
     else:
+        #TODO add information on the interface for the user to understand
         print("Image skipped")
 
             
